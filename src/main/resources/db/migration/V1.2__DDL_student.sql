@@ -1,4 +1,4 @@
-CREATE TABLE public.student (
+CREATE TABLE flyway.student (
 	id uuid NOT NULL DEFAULT uuid_generate_v4(),
 	name varchar NOT NULL,
 	address varchar NOT NULL,
